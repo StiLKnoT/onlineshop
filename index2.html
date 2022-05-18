@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+</head>
+<body style="background: url(./img/fon.jpg) center/cover no-repeat;">
+    <div class="container mt-5">
+    <h1 style="background: rgb(46, 45, 45); color: white; font-size: 48px; text-align: center;">Корзина</h1> 
+      <table class="table table-striped table-dark mt-5">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Фото</th>
+              <th scope="col">Цена</th>
+              <th scope="col">Статус</th>
+              <th scope="col">Удалить</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td><img src="img/clothes/cl1.jpg" alt="" width="30px" height="30px"></td>
+              <td>1.300.000сум</td>
+              <td>Новый</td>
+              <td><i class="bi bi-bucket"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td><img src="img/shoe3.jpg" alt="" width="30px" height="30px"></td>
+              <td>869.000сум</td>
+              <td>Новый</td>
+              <td><i class="bi bi-bucket"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td><img src="img/shoe1.jpg" alt="" width="30px" height="30px"></td>
+              <td>1.200.000сум</td>
+              <td>в тренде</td>
+              <td><i class="bi bi-bucket"></i></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" style="text-align: end;" data-toggle="modal" data-target="#exampleModal">
+      Купить
+    </button>
+    <a  href="index.html"> <button style="margin-left: 20px;" type="button" class="btn btn-primary">Назад</button></a>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="background: rgb(230, 223, 214);">
+            Спортивка
+          <br>Новый
+          <br>Цена: 1.200.000сум
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
